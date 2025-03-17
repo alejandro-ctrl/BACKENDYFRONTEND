@@ -69,7 +69,7 @@ export const register = async (req, res) =>{
             username:userFound.username,
             email:userFound.email,
             createAT:userFound.createdAt,
-            updateAt:userFound.updateAt
+            updateAt:userFound.updatedAt,
      } )
 
 
